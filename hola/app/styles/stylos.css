@@ -1,0 +1,43 @@
+#form
+{
+   float:left;
+   padding:2px;
+   cursor:pointer;
+   display:block;
+   width:290px;
+   margin:auto;
+   text-align:left;
+}
+legend
+{
+   font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+label
+{
+   display: block;
+   padding:2px;
+   margin:2px;
+   cursor:pointer;
+}
+
+input,select{
+   margin:2px; 
+   font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   display: block;
+}
+.noblck
+{
+   display: inline;
+}
+
+fieldset{
+   float: left;
+   width: 100%;
+   display: block;
+}
+textarea
+{
+   width:100%;
+}

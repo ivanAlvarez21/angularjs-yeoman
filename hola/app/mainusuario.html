@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<title>Usuario</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/Nanocode.jpg" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">chaparritos</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">MENU</a></li>
+      <li><a href="Cartilla.html">cartilla</a></li>
+      <li><a href="Clinicas.html">clinicas</a></li>
+    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">opciones <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <form action="index.html">   <li> <a href="#"></a></li> <input type="submit" value="serrar sesion"></form>
+
+      </ul>
+    </li>
+      </ul>
+  </div>
+</nav>
+
+
+
+<style>
+  .city {
+    color: #000000;
+    float: left;
+    margin: 5px;
+    padding: 15px;
+    max-width: 1305px;
+    height: 300px;
+    width: 3000px;
+    border: 1px solid black;
+
+  }
+</style>
+
+
+
+<idv class="media">
+<div class="city">
+  <div style="text-align:center">
+    <button onclick="playPause()">Play/Pause</button>
+    <button onclick="makeBig()">Grande</button>
+    <button onclick="makeSmall()">Pequeña</button>
+    <button onclick="makeNormal()">Normal</button>
+    <br><br>
+    <video id="video1" width="420">
+      <source src="mov_bbb.mp4" type="video/mp4">
+      <source src="mov_bbb.ogg" type="video/ogg">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+
+  <script>
+    var myVideo = document.getElementById("video1");
+
+    function playPause() {
+      if (myVideo.paused)
+        myVideo.play();
+      else
+        myVideo.pause();
+    }
+
+    function makeBig() {
+      myVideo.width = 560;
+    }
+
+    function makeSmall() {
+      myVideo.width = 320;
+    }
+
+    function makeNormal() {
+      myVideo.width = 420;
+    }
+  </script>
+
+  <p>Video of <a href="https://www.facebook.com/raul.palacioz?fref=ts" target="_blank">chaparritos</a>.</p>
+
+
+
+</div>
+
+
+
+</div>
+
+</body>
+</html>
